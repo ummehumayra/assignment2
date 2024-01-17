@@ -16,7 +16,7 @@
     .main {
         padding: 20px;
         height: 500px;
-        
+
     }
 
     .main-button {
@@ -33,23 +33,43 @@
     }
 
     .sub-section-2>img {
-        
+
         height: 342px;
-       
+
         margin-bottom: 50px;
 
     }
-    .destination-heading{
+
+    .destination-heading {
         padding-top: 24px;
     }
-    .section-2{
+
+    .section-2 {
         flex-direction: column;
 
     }
-    .section-3{
+
+    .section-3 {
         flex-direction: column;
     }
-    .sub-section-box{
+
+    .sub-section-box {
         flex-direction: column;
+        gap: 24px;
+    }
+
+    .section-4 {
+        flex-direction: column;
+        gap: 24px;
+        margin: auto;
+    }
+
+    .footer {
+        width: 375px;
+        height: 309px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
