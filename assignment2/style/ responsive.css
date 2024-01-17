@@ -1,0 +1,55 @@
+@media screen and (max-width:600px) {
+    .header-section {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: coloum;
+    }
+
+    .item-container {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .main {
+        padding: 20px;
+        height: 500px;
+        
+    }
+
+    .main-button {
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-1 {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .sub-section-2>img {
+        
+        height: 342px;
+       
+        margin-bottom: 50px;
+
+    }
+    .destination-heading{
+        padding-top: 24px;
+    }
+    .section-2{
+        flex-direction: column;
+
+    }
+    .section-3{
+        flex-direction: column;
+    }
+    .sub-section-box{
+        flex-direction: column;
+    }
+}

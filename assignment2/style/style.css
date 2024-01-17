@@ -1,0 +1,268 @@
+/* Mulish font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-section {
+    margin: 50px 130px;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+}
+
+.nav-container img {
+    width: 48px;
+    height: 56px;
+}
+
+.nav-container h3 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#special {
+    color: #ff5400;
+}
+
+.item-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.main {
+    border: 2px solid black;
+    background-image: url("../Images/banner.png"),
+        linear-gradient(180deg, black 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    max-width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 106px 185px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.main-heading {
+    color: #fff;
+
+    text-align: center;
+    gap: 24px;
+}
+
+.main-heading h3 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.main-heading p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-primary {
+    background-color: #ff5400;
+    padding: 14px 34px;
+    border-radius: 8px;
+    font-weight: 800;
+    display: flex;
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+
+.main-button {
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 48px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.sub-button-1 {
+    background-color: #fff;
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.main select {
+    background-color: #fff;
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.sub-button-2 {
+    background-color: #ff5400;
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    font-weight: 800;
+    display: flex;
+    text-align: center;
+    border: none;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+
+}
+
+.sub-button-2 img {
+    width: 24px;
+    height: 24px;
+}
+
+.section-1 {
+    display: flex;
+    max-width: 1170px;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.section-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 275px;
+    margin-bottom: 24px;
+}
+
+.section-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 16px;
+}
+
+.sub-section-2 {
+    width: 540px;
+    height: 550px;
+    width: 50%;
+}
+
+.section-2 {
+    min-height: 100vh;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border: 2px solid black;
+
+
+
+}
+
+.top-side {
+    margin-top: 50px;
+    flex-basis: 50%;
+    padding: 50px 300px;
+    text-align: center;
+}
+
+.bottom-side {
+    display: grid;
+    gap: 24px;
+}
+
+.top-heading {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section-3 {
+    max-width: 1170px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.sub-section-box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.sub-section-box1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    padding: 32px 55px 32px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+
+
+}
+
+.sub-section-box2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border-radius: 16px;
+    padding: 32px 55px 32px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.sub-section-box3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    padding: 32px 55px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
